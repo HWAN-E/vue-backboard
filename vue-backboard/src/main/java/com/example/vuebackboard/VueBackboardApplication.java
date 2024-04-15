@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VueBackboardApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VueBackboardApplication.class, args);
+		SpringApplication.run(VueBackboardApplication.class, args); 
 	}
 
 }
