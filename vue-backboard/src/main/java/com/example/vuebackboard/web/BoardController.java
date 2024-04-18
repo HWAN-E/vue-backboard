@@ -21,9 +21,9 @@ public class BoardController {
         return boardService.getBoardList();
     }
 
-    @GetMapping("/api/board/{id}")
-    public BoardDto getBoard(@PathVariable Long id){
-        return boardService.getBoard(id);
+    @GetMapping("/api/board/{idx}")
+    public BoardDto getBoard(@PathVariable("idx") Long idx ){
+        return boardService.getBoard(idx);
     }
 
     @PostMapping("/api/board")
